@@ -21,6 +21,6 @@ if ($_POST['searchtext'] <> '') {
     $msg = '<h2>Задана пустая строка поиска.</h2>';
 }
 
-include('pattern.php');
+echo '<h1>Результаты:</h1>'.$msg;
 
 ?>
